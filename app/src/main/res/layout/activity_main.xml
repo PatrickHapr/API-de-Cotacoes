@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvSaldoBRL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="R$: 0.00"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvSaldoUSD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USD: 0.00"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvSaldoBTC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BTC: 0.0000"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnConverter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Converter Moeda"
+        android:onClick="abrirConversor"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
